@@ -38,9 +38,7 @@ namespace Solutions
                     while (j >= 0)
                     {
                         if (row[i] % row[j] == 0 && i != j)
-                        {
                             sum += row[i] / row[j];
-                        }
 
                         j--; // move down array
                     }
