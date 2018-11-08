@@ -40,7 +40,6 @@ namespace Solutions
                         if (row[i] % row[j] == 0 && i != j)
                         {
                             sum += row[i] / row[j];
-                            Console.WriteLine("row[i]: {0}\n row[j]: {1}\n Sum: {2}", row[i], row[j], sum);
                         }
 
                         j--; // move down array
