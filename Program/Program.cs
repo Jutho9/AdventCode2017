@@ -10,8 +10,11 @@ namespace Solutions
             // DayOne.Captcha();
             
             // Day two solutions
-            Console.WriteLine(DayTwo.Checksum());
-            Console.WriteLine(DayTwo.EvenDiv());
+            //Console.WriteLine(DayTwo.Checksum());
+            //Console.WriteLine(DayTwo.EvenDiv());
+            
+            // Day Three
+            Console.WriteLine(DayThree.Manhatten());
 
         }
     }
